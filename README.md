@@ -13,7 +13,7 @@ Portfólio pessoal de João Vitor, estudante de Análise e Desenvolvimento de Si
 - GitHub Pages
 
 ## Link do site publicado
-https://joaovitorpcardoso-byte.github.io/portfolio/
+(https://joaovitorpcardoso-byte.github.io/Apresenta-ao-geral-JV-Ag15/)
 
 ## Como o projeto funciona
 - **Menu de navegação:** navbar do Bootstrap fixa no topo, com links âncora para Perfil, Habilidades, Projetos e Contato. A rolagem é suave.
