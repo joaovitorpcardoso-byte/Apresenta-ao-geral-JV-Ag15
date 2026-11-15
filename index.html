@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>João Vitor | Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top site-nav">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#perfil">João Vitor</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        <li class="nav-item">
+          <button id="tema" class="btn btn-sm btn-outline-secondary" type="button" aria-label="Alternar tema claro/escuro">Tema escuro</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <!-- PERFIL -->
+  <section id="perfil" class="hero">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="hero-role">Estudante de Análise e Desenvolvimento de Sistemas</p>
+          <h1 class="hero-title">Olá, eu sou João Vitor.<br>Tecnologia e carros movem o que eu faço.</h1>
+          <p class="lead">Sou estudante de ADS e apaixonado por tecnologia. Estou construindo minha base em desenvolvimento web e busco minha primeira oportunidade na área. Nas horas livres, sou fanático por carros.</p>
+          <a href="#projetos" class="btn btn-accent btn-lg me-2">Ver projetos</a>
+          <a href="#contato" class="btn btn-outline-secondary btn-lg">Entrar em contato</a>
+        </div>
+        <div class="col-lg-5 text-center">
+          <img src="https://placehold.co/380x380?text=Foto" alt="Foto de João Vitor" class="foto img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES (recurso novo) -->
+  <section id="habilidades" class="secao">
+    <div class="container">
+      <h2 class="mb-4">Habilidades</h2>
+      <div class="row g-4" id="lista-habilidades">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between"><span>HTML</span><span>85%</span></div>
+          <div class="skill"><div class="skill-bar" data-nivel="85"></div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between"><span>CSS</span><span>75%</span></div>
+          <div class="skill"><div class="skill-bar" data-nivel="75"></div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between"><span>Bootstrap</span><span>70%</span></div>
+          <div class="skill"><div class="skill-bar" data-nivel="70"></div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between"><span>JavaScript</span><span>55%</span></div>
+          <div class="skill"><div class="skill-bar" data-nivel="55"></div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between"><span>Git e GitHub</span><span>60%</span></div>
+          <div class="skill"><div class="skill-bar" data-nivel="60"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="secao">
+    <div class="container">
+      <h2 class="mb-4">Projetos</h2>
+      <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-label="Projeto 1"></button>
+          <button data-bs-target="#carrossel" data-bs-slide-to="1" aria-label="Projeto 2"></button>
+          <button data-bs-target="#carrossel" data-bs-slide-to="2" aria-label="Projeto 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="projeto">
+              <img src="https://placehold.co/900x420?text=Meus+repositórios" class="d-block w-100" alt="Meus repositórios">
+              <div class="legenda"><h3>Meus repositórios</h3><p>Todos os meus projetos de ADS estão publicados no GitHub, com código aberto para consulta.</p><a href="https://github.com/joaovitorpcardoso-byte" class="btn btn-sm btn-accent" target="_blank" rel="noopener">Abrir GitHub</a></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="projeto">
+              <img src="https://placehold.co/900x420?text=Este+portfólio" class="d-block w-100" alt="Este portfólio">
+              <div class="legenda"><h3>Este portfólio</h3><p>Feito com HTML, CSS, Bootstrap e JavaScript, com tema claro/escuro e barras de habilidades animadas.</p><a href="https://github.com/joaovitorpcardoso-byte" class="btn btn-sm btn-accent" target="_blank" rel="noopener">Ver código</a></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="projeto">
+              <img src="https://placehold.co/900x420?text=Próximos+projetos" class="d-block w-100" alt="Próximos projetos">
+              <div class="legenda"><h3>Próximos projetos</h3><p>Estou sempre publicando novos estudos e exercícios. Acompanhe pelo GitHub.</p><a href="https://github.com/joaovitorpcardoso-byte" class="btn btn-sm btn-accent" target="_blank" rel="noopener">Acompanhar</a></div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carrossel" data-bs-slide="prev" aria-label="Anterior"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" data-bs-target="#carrossel" data-bs-slide="next" aria-label="Próximo"><span class="carousel-control-next-icon"></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="secao">
+    <div class="container">
+      <h2 class="mb-4">Contato</h2>
+      <div class="row g-4">
+        <div class="col-md-5">
+          <p>Quer conversar sobre estágio, projetos ou parcerias? Escreva para mim.</p>
+          <ul class="list-unstyled">
+            <li>E-mail: <a href="mailto:joaovitorpcardoso@gmail.com">joaovitorpcardoso@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/joaovitorpcardoso-byte">github.com/joaovitorpcardoso-byte</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-pellegrini-cardoso-876943227">João Vitor Pellegrini Cardoso</a></li>
+          </ul>
+        </div>
+        <div class="col-md-7">
+          <form id="form-contato" action="mailto:joaovitorpcardoso@gmail.com" method="post" enctype="text/plain">
+            <div class="mb-3"><label class="form-label" for="nome">Nome</label><input id="nome" name="nome" class="form-control" required></div>
+            <div class="mb-3"><label class="form-label" for="email">E-mail</label><input id="email" name="email" type="email" class="form-control" required></div>
+            <div class="mb-3"><label class="form-label" for="msg">Mensagem</label><textarea id="msg" name="mensagem" rows="4" class="form-control" required></textarea></div>
+            <button class="btn btn-accent" type="submit">Enviar mensagem</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="text-center py-4 small">© 2026 João Vitor. Feito com HTML, CSS, Bootstrap e JavaScript.</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
